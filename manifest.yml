@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: authxx10
+  host: authxx10
+  disk_quota: 1024M
+  services:
+  - authxx10-cloudantNoSQLDB
